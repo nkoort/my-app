@@ -1,0 +1,26 @@
+.message {
+    padding: 20px 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.message img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.message.my {
+    color: rgb(20, 18, 67);
+    text-align: right;
+    flex-direction: row-reverse;
+}
+.message.my img {
+    margin: 0 0 0 10px;
+}
+.message.comp img {
+    margin: 0 10px 0 0;
+}
+.message.comp {
+    color: rgb(29, 95, 29);
+    text-align: left;
+}

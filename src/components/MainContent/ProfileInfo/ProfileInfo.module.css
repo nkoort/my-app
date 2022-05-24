@@ -1,0 +1,10 @@
+.profileInfo{
+  margin: 0 0 20px 0;
+}
+
+.photo {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50px;
+}

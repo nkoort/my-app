@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 0.2fr 0.8fr;
+    max-width: 100%;
+    
+}
+
+.dialogsItems{
+    grid-column: 1/2;
+    border-right: 1px solid #111;
+    padding: 20px 10px;
+}
+.messages{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: 100%;
+}
+
+.messBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    grid-row: 1/2;
+    max-height: calc(100vh * 0.85);
+    overflow: auto;
+}

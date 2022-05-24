@@ -1,0 +1,36 @@
+.friendPage{
+   margin: 10px;
+   padding: 10px;
+   border: 2px black solid;
+   border-radius: 20px;
+   display: flex;
+}
+
+.avatarImg {
+   max-width: 200px;
+   height: auto;
+   object-fit: cover;
+   border-radius: 25px;
+}
+
+.description {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin: 0 0 0 20px;
+}
+
+.name{
+   padding: 10px 20px;
+   font-size: 18px;
+   color: #fff;
+}
+
+.id{
+   padding: 10px 20px;
+   font-size: 18px;
+   color: #fff;
+}
+.id:before {
+   content: 'id: ';
+}

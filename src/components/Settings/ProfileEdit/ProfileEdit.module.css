@@ -1,0 +1,22 @@
+.header{
+   text-align: center;
+}
+
+.statusMessage{
+   background-color: green;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+   color: #fff;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.statusMessageError{
+   background-color: rgba(255, 0, 0, 0.566);
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+   color: #fff;
+   font-size: 20px;
+   border-radius: 10px;
+}

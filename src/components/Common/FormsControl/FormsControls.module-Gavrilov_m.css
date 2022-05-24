@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.form {
+    /* justify-content: flex-end; */
+    grid-row: 2/3;
+    padding: 0px 10px;
+    display: flex;
+}
+.formText {
+   width: 100%;
+}
+.form textarea{
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    border: 0;
+    flex: 1 1 100%;
+    min-height: 50px;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
+.formText.error textarea{
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+.formText.error input{
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+
+.inputEditBlock{
+   display: grid;
+   grid-template-columns: 1.5fr 4fr;
+   padding: 10px 20px;
+   align-items: center;
+
+}
+
+.nameEdit {
+   grid-column: 1/2;
+   font-weight: 700;
+
+}
+.inputEdit {
+   grid-column: 2/3;
+}
+.inputEditText {
+   width: 100%;
+   padding: 5px;
+   border-radius: 10px;
+   border: 1px solid black;
+   font-size: 16px;
+}

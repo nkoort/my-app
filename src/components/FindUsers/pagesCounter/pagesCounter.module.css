@@ -1,0 +1,30 @@
+
+
+.selected {
+    margin: 20px 0 0 10px;
+    display: grid;
+    grid-template-columns: repeat(30, auto);
+    max-width: 400px;
+}
+.selected span{
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
+.selectedPage{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.selected span.first:first-child{
+    margin: 0 0px 0 5px;
+}
+.selected span.first:first-child:after{
+    content: ' < . . .';
+}
+
+
+.selected span.last:last-child{
+}
+.selected span.last:last-child::before{
+     content: ' . . . > '
+}

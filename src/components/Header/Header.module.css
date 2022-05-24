@@ -1,0 +1,24 @@
+.header {
+  grid-area: head;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px 10px;
+  align-items: center;
+}
+.header img {
+  max-width: 100%;
+  height: auto;
+  max-height: 60px;
+  object-fit: cover;
+}
+
+.loginBlock a{
+  color: #111;
+}
+
+.loginBlock {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}

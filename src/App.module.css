@@ -1,0 +1,17 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  grid-template-areas:
+  'head head'
+  'sidebarMenu mainContent';
+  min-height: 100vh;
+  background: #fff;
+}
+
+.content {
+  grid-area: mainContent;
+  background-color: gray;
+  position: relative;
+}

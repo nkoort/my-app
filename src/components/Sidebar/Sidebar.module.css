@@ -1,0 +1,48 @@
+.sidebar {
+  background-color: green;
+  grid-area: sidebarMenu;
+  padding: 10px 5px 20px 5px;
+}
+
+.sidebarMenu{
+  margin: 0 0 50px 0;
+  border-bottom: 2px solid #111;
+  padding: 0 0 10px 0;
+}
+
+.item {
+  color: #fff;
+  margin: 5px 0 0 5px;
+  text-decoration: none;
+}
+.item:first-child{
+  margin: 15px 0 0 5px;
+}
+
+.setting {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px 0 0 5px;
+}
+
+.item .active {
+  color: rgb(1, 1, 1);
+  margin: 5px 0 0 5px;
+}
+.setting .active {
+  color: rgb(1, 1, 1);
+  margin: 5px 0 0 5px;
+}
+
+.findUsers {
+  color: #fff;
+  font-size: 20px;
+  margin: 5px 0 0 5px;
+  text-decoration: none;
+  margin: 20px 0 0 0;
+}
+
+.findUsers .active {
+  color: rgb(1, 1, 1);
+  margin: 20px 0 0 5px;
+}

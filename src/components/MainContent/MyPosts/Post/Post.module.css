@@ -1,0 +1,42 @@
+
+.item {
+  margin: 10px 0 0 10px;
+  color: rgb(2, 52, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.item img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+.item:last-child{
+  padding: 0 0 10px 0;
+}
+.item:first-child{
+  padding: 10px 0 0 0;
+}
+
+.links {
+}
+.like {
+  margin: 0 10px 0 0;
+}
+.share {
+  margin: 0 10px 0 0;
+}
+.count {
+  margin: 0 0 0 2px;
+  color: red;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.text::after{
+  content: ' -';
+}

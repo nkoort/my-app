@@ -1,0 +1,95 @@
+.photo img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    background-color: rgba(4, 130, 130, 0.4);
+    border-radius: 20px;
+    
+}
+.photoBlock{
+    margin: 0 20px 0 0;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.follow button {
+    margin: 10px 0 0 0;
+    color: gray;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    transition: 0.5s;
+}
+.follow button:hover {
+    color: #Fff;
+    transition: 0.3s;
+}
+
+button.follow {
+    background-color: rgb(3, 96, 0);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.unfollow {
+    background-color: gray;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.info{
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.right{
+    font-size: 20px;
+    color: #fff;
+}
+.country{
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+.country:after{
+    content: ',';
+    margin: 0 0 0 1px;
+}
+.city{}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+
+
+.popupBar {
+  display: none;
+}
+.popupBar:hover {
+  display: block;
+}
+.loginBar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginBar:hover .popupBar {
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  left: 30px;
+
+}
+
+.userBar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  ;
+}
+
+.avatar {
+  width: 40px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
